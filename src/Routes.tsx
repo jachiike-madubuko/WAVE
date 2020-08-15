@@ -3,6 +3,7 @@ import {Main} from "./components/templates"
 import React from "react"
 import { Counter } from "./features/counter/Counter"
 import Auth from "./components/organisms/Auth";
+import Interview from "./components/templates/Interview";
 
 export interface RouteProps  {
     children?: React.ReactNode
@@ -33,6 +34,7 @@ const Routes = () => {
                 <Home path="/" />
                 <Auth path="auth"  />
                 <Dash path="dashboard" />
+                <Interview path="interview" />
             </Main>
         </Router>
     )

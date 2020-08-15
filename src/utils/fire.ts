@@ -3,15 +3,15 @@ import 'firebase/auth';
 import * as f from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAkHkTUbCUZZT1qEPEufCBF3qrd1_mCwFA",
-  authDomain: "product-butter-and-jelly.firebaseapp.com",
-  databaseURL: "https://product-butter-and-jelly.firebaseio.com",
-  projectId: "product-butter-and-jelly",
-  storageBucket: "product-butter-and-jelly.appspot.com",
-  messagingSenderId: "488822632159",
-  appId: "1:488822632159:web:898ea5e2227c46d1c9836a",
-  measurementId: "G-HX6H8C5PK5"
-};
+    apiKey: "AIzaSyDDBnF9u4mB7wnw8FfzKTYhA37Fh4pEfBc",
+    authDomain: "wave-70402.firebaseapp.com",
+    databaseURL: "https://wave-70402.firebaseio.com",
+    projectId: "wave-70402",
+    storageBucket: "wave-70402.appspot.com",
+    messagingSenderId: "970071629490",
+    appId: "1:970071629490:web:9c9b9343790bafa2cd73ab",
+    measurementId: "G-2LDCF7XTSW"
+  };
 
 class Fire {
   static instance: Fire;

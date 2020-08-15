@@ -66,28 +66,33 @@ const MainLayout: React.FC<RouteProps> = props => {
                     <Paper>
                         <Wrapper borderColor="gold">
                             <div css={{ flex: 1, flexDirection: 'row' }}>
+                                <h2>
 
-                                <div css={{ textAlign: 'center', flex: 1 }}>
-                                    {user ? (
-                                        <p>
-                                            Hi {user.email}
-                                        </p>
-
-                                    ) : (
-                                            <p>
-                                                Login
-                                            </p>
-                                        )}
-                                </div>
-
-                                <div css={{ textAlign: 'center', flex: 1 }}>
+                                    <p>
 
                                     <Link to="/">🏡</Link>
                                     <span css={{ margin: 25 }}>
                                         <Link to="auth">🔐</Link>
                                     </span>
                                     <Link to="dashboard">🤑</Link>
-                                </div>
+                                    <span css={{ margin: 25 }}>
+                                        <Link to="interview">🦸‍♂️</Link>
+                                    </span>
+                                    <span>
+
+                                        {user ? (
+                                            <p>
+                                                Hi {user.email}
+                                            </p>
+
+                                        ) : (
+                                                <p>
+                                                    Login
+                                                </p>
+                                            )}
+                                    </span>
+                                            </p>
+                                </h2>
 
                             </div>
                         </Wrapper>

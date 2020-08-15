@@ -1,4 +1,4 @@
-endpoint: https://us1.prisma.sh/jachiike-c-madubuko/pbandj/dev
+endpoint: https://us1.prisma.sh/jachiike-c-madubuko/WAVE/dev
 datamodel: datamodel.prisma
 
 generate:
